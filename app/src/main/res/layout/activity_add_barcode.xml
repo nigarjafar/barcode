@@ -47,10 +47,11 @@
                 style="@style/LabelStyle"/>
 
             <EditText
+                android:id="@+id/addBarcodeID"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:text="12345678"/>
+                />
 
         </LinearLayout>
 
@@ -68,10 +69,11 @@
                 style="@style/LabelStyle"/>
 
             <EditText
+                android:id="@+id/addBarcodeName"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:text="Mouse A Tech"/>
+                />
 
         </LinearLayout>
 
@@ -93,6 +95,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:text="Save Barcode"
+                android:onClick="saveBarcode"
                 style="@style/ButtonStyle"/>
 
         </RelativeLayout>
@@ -100,4 +103,3 @@
     </LinearLayout>
 
 </RelativeLayout>
-

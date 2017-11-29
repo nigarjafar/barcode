@@ -106,8 +106,6 @@ public class UserDb extends SQLiteOpenHelper {
         Log.e("log","read2");
         Cursor c = db.rawQuery("SELECT * FROM "+TABLE_USER+" WHERE "+EMAIL+" = '"+email+"' AND "+PASSWORD+"= '"+password+"'",null);
         Log.e("log",""+c.getCount());
-        StringBuilder test=new StringBuilder();
-
 
         if(c.getCount()==1){
             return true;

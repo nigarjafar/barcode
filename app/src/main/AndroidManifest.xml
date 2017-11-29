@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.user.barcode">
 
     <uses-permission android:name="android.permission.CAMERA" />
@@ -22,7 +23,10 @@
         </activity>
         <activity android:name=".RegistrationPage" />
         <activity android:name=".BarcodeMenu" />
-        <activity android:name=".AddBarcode" />
+        <activity
+            android:name=".AddBarcode"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation"/>
         <activity android:name=".ReadBarcode"></activity>
     </application>
 

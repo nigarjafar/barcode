@@ -57,7 +57,7 @@
                 style="@style/LabelStyle"  />
 
             <EditText
-                android:id="@+id/readBarcode"
+                android:id="@+id/readBarcodeID"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
